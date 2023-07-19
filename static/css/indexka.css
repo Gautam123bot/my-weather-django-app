@@ -1,0 +1,52 @@
+.navbar-tech{
+    background-color: aquamarine;
+    padding: 10px;
+    color: black;
+    text-decoration: underline;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+.tagline{
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    background-color: aqua;
+    width: 100%;
+
+}
+
+.main_tagline{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px 0px 15px 0px;
+    margin: 0px;
+}
+
+.weather_logo{
+    width: 60px;
+    margin-right: 20px;
+}
+
+.output_color{
+    background-color: aqua;
+}
+
+
+.car-bod{
+    color: black;
+}
+.car-bod h4{
+    color: black;
+}
+.car-bod h4 span{
+    color: black;
+}
+
+body{
+    background-color: aqua;
+}
