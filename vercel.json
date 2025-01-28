@@ -3,10 +3,7 @@
     "builds": [
       {
         "src": "try_api/manage.py",
-        "use": "@vercel/python",
-        "config": {
-          "maxDuration": 10
-        }
+        "use": "@vercel/python"
       }
     ],
     "routes": [
