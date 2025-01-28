@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "try_api/manage.py",
+        "use": "@vercel/python",
+        "config": {
+          "maxDuration": 10
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "try_api/manage.py"
+      }
+    ]
+  }
+  
